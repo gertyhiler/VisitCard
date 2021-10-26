@@ -12,7 +12,7 @@ body{
 }
 .vizit{
     display:flex;
-    background-image: url("/img/Fon.jpg");
+    background-image: url("../img/Fon.jpg");
     background-size: cover;
     height: 675px;
     width: 1125px;
