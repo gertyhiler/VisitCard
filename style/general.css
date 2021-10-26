@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding-top:6vh;
+
+}
+.vizit{
+    display:flex;
+    background-image: url("/img/Fon.jpg");
+    background-size: cover;
+    height: 675px;
+    width: 1125px;
+
+    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button{
+    padding-top:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button>a{
+    display: flex;
+    justify-content: center;
+    margin-left: 1.30cm;
+
+}
+
+.text{
+    text-align: center;
+    font-size:90px;
+    text-transform: uppercase;
+    padding-left:40px;
+    opacity: 0.8;
+}
